@@ -5,8 +5,8 @@ export default function CardSection({ qtdPropriedades }) {
         <div className="flex flex-wrap justify-center mx-auto">
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[132px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Casa
                         </p>
@@ -18,10 +18,10 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgAp bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[75px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgAp bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
-                            Apartamentos
+                            Apartamento
                         </p>
                         <h3 className="drop-shadow-dark ">
                             {qtdPropriedades}
@@ -31,10 +31,10 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgLote bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[132px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgLote bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
-                            Lotes
+                            Lote
                         </p>
                         <h3 className="drop-shadow-dark ">
                             {qtdPropriedades}
@@ -44,8 +44,8 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[110px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Área rural
                         </p>
@@ -57,8 +57,8 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgComercial bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[110px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgComercial bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Comercial
                         </p>
@@ -70,8 +70,8 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgAp bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
-                    <div className=" bg-black px-[124px] py-24 hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-80 md:w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                    <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Sobrado
                         </p>

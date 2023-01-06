@@ -4,7 +4,7 @@ import CardDestaques from "./CardDestaques"
 export default function Destaques() {
     return (
         <div>
-            <div className="flex flex-col justify-centers items-center text-center mt-20">
+            <div className="flex flex-col justify-centers items-center text-center mt-20 mx-4">
                 <p className="text-4xl mb-5">
                     Confira os nossos destaques
                 </p>

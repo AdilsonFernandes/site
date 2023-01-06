@@ -36,21 +36,21 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                            <li className="border-b border-gray-400 my-8 uppercase">
-                                <Link href="/about">Início</Link>
+                        <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
+                            <li className="border-b border-gray-400 my-8 uppercase  text-xl">
+                                <Link href="/about"className="font-bold">Início</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
-                                <Link href="/about">Sobre nós</Link>
+                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                                <Link href="/about"className="font-bold">Sobre nós</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
-                                <Link href="/about">São Lourenço</Link>
+                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                                <Link href="/about"className="font-bold">São Lourenço</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
-                                <Link href="/about">Imóveis</Link>
+                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                                <Link href="/about"className="font-bold">Imóveis</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase">
-                                <Link href="/about">Contato</Link>
+                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                                <Link href="/about " className="font-bold">Contato</Link>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +85,7 @@ export default function Header() {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
+        background:#6583e0;
         z-index: 10;
         display: flex;
         flex-direction: column;
