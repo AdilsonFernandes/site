@@ -4,7 +4,7 @@ import CardDestaques from "./CardDestaques"
 export default function Destaques() {
     return (
         <div>
-            <div className="flex flex-col justify-centers items-center text-center mt-20 mx-4">
+            <div className="flex flex-col justify-centers items-center text-center mt-20">
                 <p className="text-4xl mb-5">
                     Confira os nossos destaques
                 </p>
@@ -40,36 +40,10 @@ export default function Destaques() {
                         metros='82m²'
                         preco='R$ 5.000.000.00'
                     />
-                    <CardDestaques
-                        imovel='Apartamento novo na Cobertura'
-                        cidade='São Lourenço Sul de Minas Gerais'
-                        quartos='2 quartos'
-                        metros='82m²'
-                        preco='R$ 5.000.000.00'
-                    />
-                     <CardDestaques
-                        imovel='Apartamento novo na Cobertura'
-                        cidade='São Lourenço Sul de Minas Gerais'
-                        quartos='2 quartos'
-                        metros='82m²'
-                        preco='R$ 5.000.000.00'
-                    />
-                     <CardDestaques
-                        imovel='Apartamento novo na Cobertura'
-                        cidade='São Lourenço Sul de Minas Gerais'
-                        quartos='2 quartos'
-                        metros='82m²'
-                        preco='R$ 5.000.000.00'
-                    />
-                     <CardDestaques
-                        imovel='Apartamento novo na Cobertura'
-                        cidade='São Lourenço Sul de Minas Gerais'
-                        quartos='2 quartos'
-                        metros='82m²'
-                        preco='R$ 5.000.000.00'
-                    />
+                   
+                    
                 </div>
-                <button className="border border-solid border-blue-700 rounded-md  py-4 px-16 text-md text-blue-700 over:bg-blue-700">
+                <button className="border border-solid border-blue-700 rounded-md  py-4 px-16 text-md font-bold text-blue-700 hover:bg-blue-700 hover:text-white transition">
                     Ver mais opções
                     </button>
             </div>

@@ -2,7 +2,7 @@ import Image from "next/image"
 import fotoCard from "../public/bgCard.jpg"
 import iconCoracao from "../public/icons/coracao.png"
 import iconMais from "../public/icons/mais.png"
-import flecha from "../public/icons/flecha.png"
+
 
 
 export default function CardDestaques({ imovel, cidade, quartos, metros, preco, }) {
@@ -17,10 +17,9 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                     <p className="text-gray-600">
                         {cidade}
                     </p>
-                    <div className="flex justify-between mx-4 mb-7 text-gray-800 mt-2">
-                        <p className="flex"> <Image src={flecha}
-                            className="mr-4 w-5 h-auto opacity-70" />
-                            {quartos}
+                    <div className="flex justify-between  text-gray-800 mt-2 mb-7">
+                        <p>
+                        &#9755;{quartos}
                         </p>
                         <p>{metros}</p>
                     </div>
