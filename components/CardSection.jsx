@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function CardSection({ qtdPropriedades }) {
     return (
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap justify-center">
 
             <div className="m-5">
                 <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
