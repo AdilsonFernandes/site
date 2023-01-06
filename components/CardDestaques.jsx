@@ -10,7 +10,7 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
         <div className=" space-x-9 flex flex-row shadow m-auto">
             <div className="w-72 flex flex-col justify-start text-start bg-gray-300 rounded-md pb-5">
                 <Image src={fotoCard} alt='imagem do card' className="rounded-md mb-4" />
-                <div className="mx-4 ">
+                <div className="mx-4">
                     <p className="text-xl text-gray-800 font-bold mb-5 ">
                         {imovel}
                     </p>
@@ -19,7 +19,7 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                     </p>
                     <div className="flex justify-between  text-gray-800 mt-2 mb-7">
                         <p>
-                        &#9755;{quartos}
+                            &#9755;{quartos}
                         </p>
                         <p>{metros}</p>
                     </div>
@@ -35,6 +35,9 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                     <p className="text-start text-gray-600">
                         VENDA
                     </p>
+                    <div className="mt-5 flex justify-center items-center ">
+                        <button className="bg-blue-700 text-white p-1 px-5 hover:bg-blue-500"> Detalhes</button>
+                    </div>
                 </div>
 
             </div>

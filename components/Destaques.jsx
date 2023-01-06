@@ -40,6 +40,34 @@ export default function Destaques() {
                         metros='82m²'
                         preco='R$ 5.000.000.00'
                     />
+                     <CardDestaques
+                        imovel='Apartamento novo na Cobertura'
+                        cidade='São Lourenço Sul de Minas Gerais'
+                        quartos='2 quartos'
+                        metros='82m²'
+                        preco='R$ 5.000.000.00'
+                    />
+                     <CardDestaques
+                        imovel='Apartamento novo na Cobertura'
+                        cidade='São Lourenço Sul de Minas Gerais'
+                        quartos='2 quartos'
+                        metros='82m²'
+                        preco='R$ 5.000.000.00'
+                    />
+                     <CardDestaques
+                        imovel='Apartamento novo na Cobertura'
+                        cidade='São Lourenço Sul de Minas Gerais'
+                        quartos='2 quartos'
+                        metros='82m²'
+                        preco='R$ 5.000.000.00'
+                    />
+                     <CardDestaques
+                        imovel='Apartamento novo na Cobertura'
+                        cidade='São Lourenço Sul de Minas Gerais'
+                        quartos='2 quartos'
+                        metros='82m²'
+                        preco='R$ 5.000.000.00'
+                    />
                    
                     
                 </div>
