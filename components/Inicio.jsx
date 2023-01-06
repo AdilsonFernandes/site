@@ -2,33 +2,40 @@ import Image from "next/image"
 import Link from "next/link"
 //import Carrossel from "./Bootstrap.jsx"
 import logo from "../public/logo/logotipo.png"
+import burguer from "../public/icons/burguer.png"
 
 export default function Inicio() {
     return (
-        <div className="mb-16  ">
-            <header className="flex justify-between items-center shadow-dark relative w-full h-24">
+        <div className="mb-16 ">
+            <header className="m-auto flex justify-between items-center shadow-dark relative w-full h-24">
                 <Image src={logo} width={120} />
-                <nav className="space-x-8 mx-10" >
+                <Image src={burguer} width={40} className="md:hidden mx-5"/>
+                <nav className="hidden space-x-8 mx-10 md:block">
 
-                    <Link href="/contato" className="tracking-wide hover:text-blue-700 transition-all">
+                    <Link href="/contato"
+                        className="tracking-wide hover:text-blue-700 transition">
                         Início
                     </Link>
-                    <Link href="/contato" className="tracking-wide hover:text-blue-700">
+                    <Link href="/contato"
+                        className="tracking-wide hover:text-blue-700 transition">
                         Sobre nós
                     </Link>
-                    <Link href="/contato" className="tracking-wide hover:text-blue-700">
+                    <Link href="/contato"
+                        className="tracking-wide hover:text-blue-700 transition">
                         São Lourenço
                     </Link>
-                    <Link href="/contato" className="tracking-wide hover:text-blue-700">
+                    <Link href="/contato"
+                        className="tracking-wide hover:text-blue-700 transition">
                         Imóveis
                     </Link>
-                    <Link href="/contato" className="tracking-wide hover:text-blue-700">
+                    <Link href="/contato"
+                        className="tracking-wide hover:text-blue-700 transition">
                         Contato
                     </Link>
                 </nav>
             </header>
 
-            <div className=" text-white flex flex-col justify-center justify-items-center items-center w-auto bg-app  h-[600px] bg-no-repeat bg-cover">
+            <div className=" text-white flex flex-col justify-center text-center justify-items-center items-center w-auto bg-app  h-[600px] bg-no-repeat bg-cover">
 
                 <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                     Encontre o imóvel perfeito
