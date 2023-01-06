@@ -9,13 +9,13 @@ export default function Inicio() {
     return (
 
         <div className="mb-16 ">
-            <header className="m-auto flex justify-between items-center shadow-dark relative w-full h-24">
+            <header className="m-auto flex justify-between items-center shadow-dark relative  h-24">
                 <Image src={logo} width={120} />
                 <Burguer/>
                 
             </header>
 
-            <div className=" text-white flex flex-col justify-center text-center justify-items-center items-center w-auto bg-app  h-[600px] bg-no-repeat bg-cover">
+            <div className=" text-white flex flex-col justify-center text-center justify-items-center items-center  bg-app  h-[600px] bg-no-repeat bg-cover">
 
                 <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                     Encontre o imóvel perfeito
