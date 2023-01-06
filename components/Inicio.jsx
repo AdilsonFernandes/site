@@ -28,7 +28,7 @@ export default function Inicio() {
                         placeholder="Onde você quer morar?"
                         className="p-4 bg-bgIcon bg-no-repeat bg-left text-center text-slate-600 rounded-md"
                     />
-                    <button className="bg-blue-700 hover:bg-blue-500 p-4 rounded-md">
+                    <button className="bg-blue-700 hover:bg-blue-500 p-4 rounded-md mt-5">
                         Procurar
                     </button>
                 </div>

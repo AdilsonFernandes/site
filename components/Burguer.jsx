@@ -58,19 +58,19 @@ export default function Header() {
 
                 <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                     <li >
-                        <Link href="/about">Início</Link>
+                        <Link href="/about" className="hover:text-gray-500 transi">Início</Link>
                     </li>
                     <li >
-                        <Link href="/about">Sobre nós</Link>
+                        <Link href="/about"className="hover:text-gray-500">Sobre nós</Link>
                     </li>
                     <li >
-                        <Link href="/about">São Lourenço</Link>
+                        <Link href="/about"className="hover:text-gray-500">São Lourenço</Link>
                     </li>
                     <li >
-                        <Link href="/about">Imóveis</Link>
+                        <Link href="/about"className="hover:text-gray-500">Imóveis</Link>
                     </li>
                     <li y>
-                        <Link href="/about">Contato</Link>
+                        <Link href="/about"className="hover:text-gray-500">Contato</Link>
                     </li>
                 </ul>
             </nav>
