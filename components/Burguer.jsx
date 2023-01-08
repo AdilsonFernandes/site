@@ -13,9 +13,9 @@ export default function Header() {
                         className="HAMBURGER-ICON space-y-2"
                         onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
                     >
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-                        <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-blue-700"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-blue-700"></span>
+                        <span className="block h-0.5 w-8 animate-pulse bg-blue-700"></span>
                     </div>
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"} >
@@ -24,7 +24,7 @@ export default function Header() {
                             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
                         >
                             <svg
-                                className="h-8 w-8 text-gray-600"
+                                className="h-8 w-8 text-white"
                                 viewBox="0 0 24 24"
                                 fill="none"
                                 stroke="currentColor"
@@ -36,20 +36,20 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
-                            <li className="border-b border-gray-400 my-8 uppercase  text-xl">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat text-white font-bold flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
+                            <li className="border w-full text-center p-6 border-white  uppercase  text-2xl">
                                 <Link href="/about"className="font-bold">Início</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
                                 <Link href="/about"className="font-bold">Sobre nós</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
                                 <Link href="/about"className="font-bold">São Lourenço</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
                                 <Link href="/about"className="font-bold">Imóveis</Link>
                             </li>
-                            <li className="border-b border-gray-400 my-8 uppercase text-xl">
+                            <li className="border w-full text-center p-6 border-white uppercase text-2xl">
                                 <Link href="/about " className="font-bold">Contato</Link>
                             </li>
                         </ul>
@@ -85,7 +85,6 @@ export default function Header() {
         height: 100vh;
         top: 0;
         left: 0;
-        background:#6583e0;
         z-index: 10;
         display: flex;
         flex-direction: column;
