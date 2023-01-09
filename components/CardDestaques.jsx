@@ -36,7 +36,7 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                         VENDA
                     </p>
                     <div className="mt-5 flex justify-center items-center ">
-                        <button className="bg-blue-700 rounded text-white p-1 px-5 hover:bg-blue-500"> Detalhes</button>
+                        <button className="bg-blue-700 rounded text-white p-1 px-5 hover:bg-blue-500 transition-all"> Detalhes</button>
                     </div>
                 </div>
 

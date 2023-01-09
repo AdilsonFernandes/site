@@ -16,7 +16,7 @@ export default function Inicio() {
             </header>
 
             <div className=" text-white flex flex-col justify-center text-center justify-items-center items-center h-[600px] bg-app  bg-no-repeat bg-cover">
-                <div className="bg-black bg-opacity-20 h-full flex flex-col justify-center">
+                <div className="bg-black bg-opacity-20 h-full w-full flex flex-col justify-center">
                     <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                         Encontre o imóvel perfeito
                     </h1>
@@ -28,7 +28,7 @@ export default function Inicio() {
                             placeholder="Onde você quer morar?"
                             className="p-4 bg-bgIcon bg-no-repeat bg-left text-center text-slate-600 rounded-md"
                         />
-                        <button className="bg-blue-700 hover:bg-blue-500 p-4 rounded-md mt-5">
+                        <button className="bg-blue-700 hover:bg-blue-500 p-4 rounded-md mt-5 transition-all">
                             Procurar
                         </button>
                     </div>

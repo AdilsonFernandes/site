@@ -20,7 +20,7 @@ export default function Header() {
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"} >
                         <div
-                            className="CROSS-ICON fixed z-10 top-0 right-0 px-8 py-8 transition"
+                            className="CROSS-ICON fixed z-10 top-0 right-0 px-8 py-8"
                             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
                         >
                             <svg
