@@ -36,20 +36,20 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat text-white font-bold flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
-                            <li className="border w-full text-center p-6 border-white  uppercase  text-2xl">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat  space-y-2 ron text-white font-bold flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
+                            <li className="border w-full text-center p-6 border-white rounded-md suppercase  text-2xl">
                                 <Link href="/about"className="font-bold">Início</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
+                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
                                 <Link href="/about"className="font-bold">Sobre nós</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
+                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
                                 <Link href="/about"className="font-bold">São Lourenço</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white  uppercase text-2xl">
+                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
                                 <Link href="/about"className="font-bold">Imóveis</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white uppercase text-2xl">
+                            <li className="border w-full text-center p-6 border-white rounded-md  uppercase text-2xl">
                                 <Link href="/about " className="font-bold">Contato</Link>
                             </li>
                         </ul>
