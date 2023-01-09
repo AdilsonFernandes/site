@@ -5,12 +5,12 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     return (
-        <div className="flex items-center justify-between mx-8 py-8">
+        <div className="flex items-center justify-between mx-8 py-8 ">
 
             <nav className="transition">
-                <section className="MOBILE-MENU flex lg:hidden">
+                <section className="MOBILE-MENU flex lg:hidden ">
                     <div
-                        className="HAMBURGER-ICON space-y-2"
+                        className="HAMBURGER-ICON space-y-2 "
                         onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
                     >
                         <span className="block h-0.5 w-8 animate-pulse bg-blue-700"></span>
@@ -20,7 +20,7 @@ export default function Header() {
 
                     <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"} >
                         <div
-                            className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
+                            className="CROSS-ICON fixed z-10 top-0 right-0 px-8 py-8 transition"
                             onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
                         >
                             <svg
@@ -36,20 +36,20 @@ export default function Header() {
                                 <line x1="6" y1="6" x2="18" y2="18" />
                             </svg>
                         </div>
-                        <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat  space-y-2 ron text-white font-bold flex flex-col items-center justify-center min-h-[250px] w-full h-full ">
-                            <li className="border w-full text-center p-6 border-white rounded-md suppercase  text-2xl">
+                        <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat space-y-2 ron text-white font-bold flex flex-col fixed items-center justify-center min-h-[1200px] w-full h-full ">
+                            <li className="border w-96 text-center p-6 border-white rounded-md suppercase  text-2xl">
                                 <Link href="/about"className="font-bold">Início</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
+                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
                                 <Link href="/about"className="font-bold">Sobre nós</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
+                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
                                 <Link href="/about"className="font-bold">São Lourenço</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white rounded-md uppercase text-2xl">
+                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
                                 <Link href="/about"className="font-bold">Imóveis</Link>
                             </li>
-                            <li className="border w-full text-center p-6 border-white rounded-md  uppercase text-2xl">
+                            <li className="border w-96 text-center p-6 border-white rounded-md  uppercase text-xl">
                                 <Link href="/about " className="font-bold">Contato</Link>
                             </li>
                         </ul>

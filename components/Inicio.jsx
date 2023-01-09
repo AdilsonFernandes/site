@@ -16,7 +16,7 @@ export default function Inicio() {
             </header>
 
             <div className=" text-white flex flex-col justify-center text-center justify-items-center items-center h-[600px] bg-app  bg-no-repeat bg-cover">
-                <div className="bg-black bg-opacity-20 h-[600px] w-screen flex flex-col justify-center">
+                <div className="bg-black bg-opacity-20 h-full flex flex-col justify-center">
                     <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                         Encontre o imóvel perfeito
                     </h1>

@@ -20,10 +20,21 @@ export default function Formulario() {
         <div className="grid grid-cols-1 mt-20 bg-blue-700 md:grid md:grid-cols-2  ">
 
             <div className="flex flex-col justify-center items-center bg-slate-300 w-full h-full ">
-                <h2 className=" text-2xl uppercase text-blue-700 font-bold">
+                <h2 className=" text-2xl uppercase text-blue-700 font-bold mb-5">
                     Localização
                 </h2>
-                <h3 className="mt-10">Av não sei das quantas</h3>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59140.75163940865!2d-45.035071699999996!3d-22.11464995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb4b8cb2d429cd%3A0xc1b7ad10ef14c37c!2zU8OjbyBMb3VyZW7Dp28gLSBNRw!5e0!3m2!1spt-BR!2sbr!4v1673290214614!5m2!1spt-BR!2sbr"
+                    
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    className="w-full h-96"
+                    >
+                </iframe>
+
+
                 <p className="mt-10 text-2xl uppercase text-blue-700 font-bold"> Siga-nos</p>
                 <p> &#64;</p>
             </div>
