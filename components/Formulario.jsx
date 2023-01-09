@@ -33,10 +33,6 @@ export default function Formulario() {
                     className="w-full h-96"
                     >
                 </iframe>
-
-
-                <p className="mt-10 text-2xl uppercase text-blue-700 font-bold"> Siga-nos</p>
-                <p> &#64;</p>
             </div>
 
             <div className="flex flex-col w-full text-white pt-10 pr-5">

@@ -7,9 +7,9 @@ import iconMais from "../public/icons/mais.png"
 
 export default function CardDestaques({ imovel, cidade, quartos, metros, preco, }) {
     return (
-        <div className=" space-x-9 flex flex-row shadow m-auto">
-            <div className="w-96 md:w-72 flex flex-col justify-start text-start bg-gray-300 rounded-md pb-5">
-                <Image src={fotoCard} alt='imagem do card' className="rounded-md mb-4" />
+        <div className="flex flex-col items-center justify-center ">
+            <div className="w-96 md:w-72 flex flex-col text-start rounded-md bg-gray-300 pb-5">
+                <Image src={fotoCard} alt='imagem do card' className=" rounded-md mb-4" />
                 <div className="mx-4">
                     <p className="text-xl text-gray-800 font-bold mb-5 ">
                         {imovel}
@@ -24,7 +24,7 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                         <p>{metros}</p>
                     </div>
                     <div className="flex justify-between">
-                        <p className="text-gray-800">
+                        <p className="text-blue-700 font-bold ">
                             {preco}
                         </p>
                         <div className="flex space-x-5">

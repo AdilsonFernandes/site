@@ -11,7 +11,7 @@ export default function Destaques() {
                 <p className="mb-10 text-zinc-500">
                     Abaixo você confere todos os nossos destaques do mês
                 </p>
-                <div className="flex justify-start flex-wrap gap-4 m-10">
+                <div className="flex justify-center items-center flex-wrap gap-4 m-5">
                     <CardDestaques
                         imovel='Apartamento novo na Cobertura'
                         cidade='São Lourenço Sul de Minas Gerais'
