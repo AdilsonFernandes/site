@@ -8,17 +8,17 @@ export default function Footer() {
                     <p>Institucional</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                 </div>
@@ -26,17 +26,17 @@ export default function Footer() {
                     <p>Imóvies</p>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                 </div>
@@ -44,17 +44,17 @@ export default function Footer() {
                     <p>Serviços</p>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                 </div>
@@ -62,17 +62,17 @@ export default function Footer() {
                     <p>Contatos</p>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            Teste
+                            &#10148;Teste
                         </p>
                     </Link>
                 </div>

@@ -4,7 +4,7 @@ import icon from "../public/icons/pin.png"
 import CardSection from "./CardSection"
 
 
-export default function Section() {
+export default function Section({localidade}) {
 
     return (
 
@@ -16,7 +16,7 @@ export default function Section() {
                     className="w-5 h-5"
                     />
                     <h3 className="text-slate-500 text-sm md:text-xl font-bold ">
-                        São Lourenço, Minas Gerais
+                        {localidade}
                     </h3>
                     <button className="text-sm">
                         Mudar localidade

@@ -28,8 +28,8 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                             {preco}
                         </p>
                         <div className="flex space-x-5">
-                            <Image src={iconCoracao} width={20} />
-                            <Image src={iconMais} width={20} />
+                            <button className="text-gray-600 text-3xl font-bold">&hearts;</button>
+                            <button className="text-gray-600 text-3xl font-bold">&#10010;</button>
                         </div>
                     </div>
                     <p className="text-start text-gray-600">
