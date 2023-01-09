@@ -1,4 +1,5 @@
 import Destaques from "../../components/Destaques.jsx"
+import Footer from "../../components/Footer.jsx"
 import Formulario from "../../components/Formulario.jsx"
 import Inicio from "../../components/Inicio.jsx"
 import Section from "../../components/Section.jsx"
@@ -12,6 +13,7 @@ export default function Home() {
       <Destaques/>
       <Wpp/>
       <Formulario/>
+      <Footer/>
     </div>
   )
 }
