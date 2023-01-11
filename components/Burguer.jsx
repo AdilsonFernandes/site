@@ -5,9 +5,9 @@ export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     return (
-        <div className="flex items-center justify-between mx-8 py-8 ">
+        <div className="flex items-center justify-between mx-8 py-8">
 
-            <nav className="transition">
+            <nav>
                 <section className="MOBILE-MENU flex lg:hidden ">
                     <div
                         className="HAMBURGER-ICON space-y-2 "
