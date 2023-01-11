@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faChevronCircleRight} from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
     return (
@@ -12,12 +13,12 @@ export default function Footer() {
                     <Link href='/teste'>
                         <p className="text-sm fa-solid">
 
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" />  Quem Somos
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" />  Quem Somos
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" /> História
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> História
                         </p>
                     </Link>
                 </div>
@@ -26,27 +27,27 @@ export default function Footer() {
                     <p className="font-bold pb-5">Imóveis</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" /> Casa
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> Casa
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" />  Apartamento
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" />  Apartamento
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" className="px-2"/>  Lotes
+                        <FontAwesomeIcon icon={faChevronCircleRight} className="px-2"/>  Lotes
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" />  Comercial
+                        <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />  Comercial
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2 ">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" /> Área Rural
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> Área Rural
                         </p>
                     </Link>
                 </div>
@@ -54,12 +55,12 @@ export default function Footer() {
                     <p className="font-bold pb-5">Serviços</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" />Venda
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" />Venda
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right"className="px-2" /> Locação
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> Locação
                         </p>
                     </Link>
                 </div>
@@ -67,12 +68,14 @@ export default function Footer() {
                     <p className="font-bold pb-5">Contato</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" className="px-2"/> Map-marker: Endereço do local
+                        <FontAwesomeIcon icon={faChevronCircleRight} className="px-2"/> 
+                        Av Damião Junqueira de Souza, 351, São Lourenço-Mg
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                        <FontAwesomeIcon icon="fa-solid fa-arrow-right" className="px-2" />  História
+                        <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> 
+                         História
                         </p>
                     </Link>
                 </div>

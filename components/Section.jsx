@@ -1,7 +1,7 @@
 
 import CardSection from "./CardSection"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons"
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 export default function Section({ localidade }) {
 
@@ -9,10 +9,11 @@ export default function Section({ localidade }) {
 
         <div>
             <div className="justify-center items-center text-center">
-                <h1 className="text-xl md:text-4xl font-bold text-blue-700">
-                    <FontAwesomeIcon icon="fa-solid fa-location-dot" className="px-5 text-2xl text-gray-600"/>
+                <h1 className=" flex justify-center items-center text-xl md:text-4xl font-bold text-blue-700">
+                <FontAwesomeIcon icon={faLocationDot} className="text-gray-600 text-2xl mx-5"/>
+
                     Explore casas em sua área
-                    <FontAwesomeIcon icon={faUser} />
+                    
                 </h1>
                 <div className="flex justify-center mt-5 space-x-4 mb-10">
                     <h3 className="text-slate-500 text-sm md:text-xl font-bold ">

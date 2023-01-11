@@ -1,6 +1,8 @@
 import Image from "next/image"
 import fotoCard from "../public/bgCard.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faChevronCircleRight,faHeart,faPlus} from "@fortawesome/free-solid-svg-icons";
+
 
 export default function CardDestaques({ imovel, cidade, quartos, metros, preco, }) {
     return (
@@ -14,23 +16,23 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                     <p className="text-gray-600">
                         {cidade}
                     </p>
-                    <div className="flex justify-between  text-gray-800 mt-2 mb-7">
+                    <div className="flex justify-between items-center text-gray-800 mt-2 mb-7">
                         <p>
-                        <FontAwesomeIcon icon="fa-solid fa-hand-point-right" className="px-2"/>
+                        <FontAwesomeIcon icon={faChevronCircleRight} className=" mr-2 text-gray-600"/>
                         {quartos}
                         </p>
                         <p>{metros}</p>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between items-center">
                         <p className="text-blue-700 font-bold ">
                             {preco}
                         </p>
-                        <div className="flex space-x-5">
+                        <div className="space-x-5">
                             <button className="text-gray-600 text-3xl font-bold">
-                                <FontAwesomeIcon icon="heart"/>
+                                <FontAwesomeIcon icon={faHeart}/>
                             </button>
                             <button className="text-gray-600 text-3xl font-bold">
-                                <FontAwesomeIcon icon="plus"/>
+                                <FontAwesomeIcon icon={faPlus}/>
                             </button>
                         </div>
                     </div>
