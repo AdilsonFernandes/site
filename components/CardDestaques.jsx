@@ -29,7 +29,7 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                         </p>
                         <div className="space-x-5">
                             <button className="text-gray-600 text-3xl font-bold">
-                                <FontAwesomeIcon icon={faHeart} className="text-2xl mx-5"/>
+                                <FontAwesomeIcon icon={faHeart} className="text-2xl "/>
                             </button>
                             
                         </div>

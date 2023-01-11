@@ -70,17 +70,17 @@ export default function Footer() {
                 <div className="flex flex-col justify-start items-start">
                     <p className="font-bold pb-5 pt-5">Contato</p>
                     <Link href='/teste'>
-                        <p className="text-sm flex items-center">
+                        <p className="text-sm flex items-center -mx-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />
-                            Av Damião Junqueira de Souza,
+                            Av Damião Junqueira de Souza, 351, São Lourenço-Mg
                         </p>
                         <p className="text-sm px-7">
-                            351, São Lourenço-Mg
+                            
                         </p>
                     </Link>
                     <Link href='/teste'>
                         <p className="font-bold pb-5 pt-10">Redes Sociais</p>
-                        <div className="flex justify-center items-center">
+                        <div className="-m-1">
                             <FontAwesomeIcon icon={faInstagram} className="px-2 text-xl" />
                             <FontAwesomeIcon icon={faFacebook} className="px-2 text-xl" />
                         </div>
