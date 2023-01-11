@@ -38,7 +38,7 @@ export default function Header() {
                         </div>
                         <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat space-y-2  text-white font-bold flex flex-col fixed items-center justify-center min-h-[1200px] w-full h-full ">
                             <li className="border w-96 text-center  border-white rounded-md   text-xl">
-                                <Link href="/about" className="font-bold block p-6">Início</Link>
+                                <Link href="/" className="font-bold block p-6">Início</Link>
                             </li>
                             <li className="border w-96 text-center border-white rounded-md  text-xl">
                                 <Link href="/about" className="font-bold block p-6">Sobre nós</Link>
@@ -58,7 +58,7 @@ export default function Header() {
 
                 <ul className="DESKTOP-MENU hidden  lg:flex">
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/about" className="hover:text-blue-700 hover:font-bold hover:transition ">Início</Link>
+                        <Link href="/" className="hover:text-blue-700 hover:font-bold hover:transition ">Início</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
                         <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>

@@ -63,7 +63,7 @@ export default function Footer() {
                     </Link>
                     <Link href='/teste'>
                         <p className="text-sm mt-2">
-                            <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" /> Locação
+                            <FontAwesomeIcon icon={faChevronCircleRight} className="px-2"/>Locação
                         </p>
                     </Link>
                 </div>
