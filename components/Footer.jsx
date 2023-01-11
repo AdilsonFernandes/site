@@ -1,13 +1,16 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faChevronCircleRight} from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
+    const data = new Date();
+    const ano = data.getFullYear();
     return (
         <div>
             <div className="flex flex-col md:grid md:grid-cols-4 bg-blue-500 text-white p-16 text-2xl">
                 <div className="flex flex-col justify-start items-start">
-                    <p className="font-bold pb-5 ">
+                    <p className="font-bold pb-5 pt-5 ">
                         Institucional
                     </p>
                     <Link href='/teste'>
@@ -24,7 +27,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col justify-start items-start">
-                    <p className="font-bold pb-5">Imóveis</p>
+                    <p className="font-bold pb-5 pt-5">Imóveis</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
                         <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> Casa
@@ -52,7 +55,7 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex flex-col justify-start items-start">
-                    <p className="font-bold pb-5">Serviços</p>
+                    <p className="font-bold pb-5 pt-5">Serviços</p>
                     <Link href='/teste'>
                         <p className="text-sm ">
                         <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" />Venda
@@ -65,25 +68,32 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex flex-col justify-start items-start">
-                    <p className="font-bold pb-5">Contato</p>
+                    <p className="font-bold pb-5 pt-5">Contato</p>
                     <Link href='/teste'>
-                        <p className="text-sm ">
+                        <p className="text-sm flex items-center">
                         <FontAwesomeIcon icon={faChevronCircleRight} className="px-2"/> 
-                        Av Damião Junqueira de Souza, 351, São Lourenço-Mg
+                        Av Damião Junqueira de Souza, 
+                        </p>
+                        <p className="text-sm px-7">
+                        351, São Lourenço-Mg
                         </p>
                     </Link>
                     <Link href='/teste'>
-                        <p className="text-sm mt-2">
+                        <p className="text-sm mt-2 flex items-center">
                         <FontAwesomeIcon icon={faChevronCircleRight}className="px-2" /> 
-                         História
+                        <FontAwesomeIcon icon={faInstagram}className="px-2 text-xl" />
+                        <FontAwesomeIcon icon={faFacebook}className="px-2 text-xl" />
+
+                        
                         </p>
                     </Link>
+                    
                 </div>
 
 
             </div>
             <div className="flex justify-center  bg-gray-300 text-blue-700 p-2 font-bold">
-                <p>Developed by Susi Technologies - 2023 - All Rights Reserved</p>
+                <Link href="https://www.susitech.dev/">Developed by Susi Technologies-</Link> <span className="ml-2 mr-2">{ano}</span> <p>All Rights Reserved</p>
 
             </div>
         </div>
