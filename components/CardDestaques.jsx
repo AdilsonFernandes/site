@@ -1,9 +1,6 @@
 import Image from "next/image"
 import fotoCard from "../public/bgCard.jpg"
-import iconCoracao from "../public/icons/coracao.png"
-import iconMais from "../public/icons/mais.png"
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function CardDestaques({ imovel, cidade, quartos, metros, preco, }) {
     return (
@@ -19,7 +16,8 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                     </p>
                     <div className="flex justify-between  text-gray-800 mt-2 mb-7">
                         <p>
-                            &#9755;{quartos}
+                        <FontAwesomeIcon icon="fa-solid fa-hand-point-right" className="px-2"/>
+                        {quartos}
                         </p>
                         <p>{metros}</p>
                     </div>
@@ -28,8 +26,12 @@ export default function CardDestaques({ imovel, cidade, quartos, metros, preco, 
                             {preco}
                         </p>
                         <div className="flex space-x-5">
-                            <button className="text-gray-600 text-3xl font-bold">&hearts;</button>
-                            <button className="text-gray-600 text-3xl font-bold">&#10010;</button>
+                            <button className="text-gray-600 text-3xl font-bold">
+                                <FontAwesomeIcon icon="heart"/>
+                            </button>
+                            <button className="text-gray-600 text-3xl font-bold">
+                                <FontAwesomeIcon icon="plus"/>
+                            </button>
                         </div>
                     </div>
                     <p className="text-start text-gray-600">

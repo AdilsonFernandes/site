@@ -23,7 +23,7 @@ export default function Inicio() {
                     <h3 className="mb-4 filter drop-shadow-dark text-3xl">
                         Temos os melhores imóveis da Região
                     </h3>
-                    <div className="space-x-4 ">
+                    <div className="space-x-4">
                         <input type="text"
                             placeholder="Onde você quer morar?"
                             className="p-4 bg-bgIcon bg-no-repeat bg-left text-center text-slate-600 rounded-md"

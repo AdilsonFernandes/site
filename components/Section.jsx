@@ -1,20 +1,19 @@
-import Image from "next/image"
 
-import icon from "../public/icons/pin.png"
 import CardSection from "./CardSection"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-export default function Section({localidade}) {
+export default function Section({ localidade }) {
 
     return (
 
         <div>
             <div className="justify-center items-center text-center">
-                <h1 className="text-xl md:text-4xl bold">Explore casas em sua área</h1>
+                <h1 className="text-xl md:text-4xl font-bold text-blue-700">
+                    <FontAwesomeIcon icon="fa-solid fa-location-dot" className="px-5 text-2xl text-gray-600"/>
+                    Explore casas em sua área
+                </h1>
                 <div className="flex justify-center mt-5 space-x-4 mb-10">
-                    <Image src={icon} 
-                    className="w-5 h-5"
-                    />
                     <h3 className="text-slate-500 text-sm md:text-xl font-bold ">
                         {localidade}
                     </h3>
@@ -23,7 +22,7 @@ export default function Section({localidade}) {
                     </button>
                 </div>
                 <CardSection
-                qtdPropriedades='18 propriedades'
+                    qtdPropriedades='18 propriedades'
                 />
             </div>
         </div>
