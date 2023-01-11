@@ -92,9 +92,8 @@ export default function Footer() {
 
 
             </div>
-            <div className="flex justify-center  bg-gray-300 text-blue-700 p-2 font-bold">
-                <Link href="https://www.susitech.dev/">Developed by Susi Technologies-</Link> <span className="ml-2 mr-2">{ano}</span> <p>All Rights Reserved</p>
-
+            <div className="flex flex-col md:flex-row justify-center items-center text-center bg-gray-300 text-blue-700 p-2 font-bold">
+                <Link href="https://www.susitech.dev/">Developed by Susi Technologies-</Link> <span className="ml-2 mr-2">{ano} All Rights Reserved</span>
             </div>
         </div>
     )
