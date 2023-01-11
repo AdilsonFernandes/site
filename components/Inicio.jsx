@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from "next/link"
+//import Link from "next/link"
 //import Carrossel from "./Bootstrap.jsx"
 import logo from "../public/logo/logotipo.png"
 //import burguer from "../public/icons/burguer.png"

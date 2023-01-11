@@ -37,40 +37,40 @@ export default function Header() {
                             </svg>
                         </div>
                         <ul className="MENU-LINK-MOBILE-OPEN  bg-blue-700 bg-no-repeat space-y-2 ron text-white font-bold flex flex-col fixed items-center justify-center min-h-[1200px] w-full h-full ">
-                            <li className="border w-96 text-center p-6 border-white rounded-md suppercase  text-2xl">
-                                <Link href="/about"className="font-bold">Início</Link>
+                            <li className="border w-96 text-center  border-white rounded-md suppercase  text-2xl">
+                                <Link href="/about" className="font-bold block p-6">Início</Link>
                             </li>
-                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
-                                <Link href="/about"className="font-bold">Sobre nós</Link>
+                            <li className="border w-96 text-center border-white rounded-md uppercase text-xl">
+                                <Link href="/about" className="font-bold block p-6">Sobre nós</Link>
                             </li>
-                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
-                                <Link href="/about"className="font-bold">São Lourenço</Link>
+                            <li className="border w-96 text-center  border-white rounded-md uppercase text-xl">
+                                <Link href="/about" className="font-bold block p-6">São Lourenço</Link>
                             </li>
-                            <li className="border w-96 text-center p-6 border-white rounded-md uppercase text-xl">
-                                <Link href="/about"className="font-bold">Imóveis</Link>
+                            <li className="border w-96 text-center border-white rounded-md uppercase text-xl">
+                                <Link href="/about" className="font-bold block p-6">Imóveis</Link>
                             </li>
-                            <li className="border w-96 text-center p-6 border-white rounded-md  uppercase text-xl">
-                                <Link href="/about " className="font-bold">Contato</Link>
+                            <li className="border w-96 text-center border-white rounded-md  uppercase text-xl">
+                                <Link href="/about " className="font-bold block p-6">Contato</Link>
                             </li>
                         </ul>
                     </div>
                 </section>
 
-                <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
-                    <li >
-                        <Link href="/about"className="hover:text-blue-700 hover:font-bold transition">Início</Link>
+                <ul className="DESKTOP-MENU hidden  lg:flex">
+                    <li className="w-28 flex justify-center items-center text-center">
+                        <Link href="/about" className="hover:text-blue-700 hover:font-bold hover:transition ">Início</Link>
                     </li>
-                    <li >
-                        <Link href="/about"className="hover:text-blue-700 hover:font-bold  transition">Sobre nós</Link>
+                    <li className="w-28 flex justify-center items-center text-center">
+                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>
                     </li>
-                    <li >
-                        <Link href="/about"className="hover:text-blue-700 hover:font-bold  transition">São Lourenço</Link>
+                    <li className="w-28 flex justify-center items-center text-center">
+                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</Link>
                     </li>
-                    <li >
-                        <Link href="/about"className="hover:text-blue-700 hover:font-bold  transition">Imóveis</Link>
+                    <li className="w-28 flex justify-center items-center text-center">
+                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Imóveis</Link>
                     </li>
-                    <li y>
-                        <Link href="/about"className="hover:text-blue-700 hover:font-bold  transition">Contato</Link>
+                    <li className="w-28 flex justify-center items-center text-center">
+                        <Link href="/about" className="hover:text-blue-700 hover:font-bold hover:transition">Contato</Link>
                     </li>
                 </ul>
             </nav>

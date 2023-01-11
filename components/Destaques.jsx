@@ -71,7 +71,7 @@ export default function Destaques() {
                    
                     
                 </div>
-                <button className="border border-solid border-blue-700 rounded-md  py-4 px-16 text-md font-bold text-blue-700 hover:bg-blue-700 hover:text-white transition">
+                <button className="mt-10 border border-solid border-blue-700 rounded-md  py-4 px-16 text-md font-bold text-blue-700 hover:bg-blue-700 hover:text-white transition">
                     Ver mais opções
                     </button>
             </div>
