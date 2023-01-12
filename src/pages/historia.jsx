@@ -6,7 +6,7 @@ import Wpp from "../../components/Wpp.jsx"
 export default function about() {
     return (
 
-        <div className="min-w-[440px] ">
+        <div className="justify-center items-center  min-w-[440px]">
             <Wpp/>
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
                 <Image src={logo} width={120} />
