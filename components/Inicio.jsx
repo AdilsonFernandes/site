@@ -1,6 +1,7 @@
 import { faArrowAltCircleUp, } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
+import Link from "next/link"
 import logo from "../public/logo/logotipo.png"
 import Burguer from "./Burguer.jsx"
 
@@ -9,7 +10,9 @@ export default function Inicio() {
 
         <div className="mb-16 w-full ">
             <header className="fixed -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
+                <Link href="/">
                 <Image src={logo} width={120} />
+                </Link>
                 <Burguer />
 
             </header>

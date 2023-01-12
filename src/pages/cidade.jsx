@@ -8,10 +8,12 @@ export default function Cidade() {
     return (
 
         <div className="justify-center items-center  min-w-[440px]">
-            <Wpp/>
+            <Wpp />
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
-                <Image src={logo} width={120} />
-                <Burguer/>
+                <Link href="/">
+                    <Image src={logo} width={120} />
+                </Link>
+                <Burguer />
 
             </header>
 
@@ -20,13 +22,13 @@ export default function Cidade() {
                     <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                         São Lourenço
                     </h1>
-                    
+
                 </div>
             </div>
             <p className="text-center m-20">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sequi iusto? Veniam ullam eaque laudantium quo maxime ad unde sit qui repellat itaque nihil non ratione, beatae, velit blanditiis atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum iure autem qui labore aliquam, perferendis ad saepe dolor consequuntur id cupiditate esse facilis asperiores natus veniam itaque quasi soluta!
             </p>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

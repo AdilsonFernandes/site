@@ -2,14 +2,17 @@ import Image from "next/image"
 import logo from "../../public/logo/logotipo.png"
 import Burguer from "../../components/Burguer"
 import Footer from "../../components/Footer"
+import Link from "next/link"
 
 export default function about() {
     return (
 
         <div className="w-full ">
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
-                <Image src={logo} width={120} />
-                <Burguer/>
+                <Link href="/">
+                    <Image src={logo} width={120} />
+                </Link>
+                <Burguer />
 
             </header>
 
@@ -18,13 +21,13 @@ export default function about() {
                     <h1 className="text-6xl mb-4 filter drop-shadow-dark font-bold">
                         Quem somos
                     </h1>
-                    
+
                 </div>
             </div>
             <p className="text-center m-20">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sequi iusto? Veniam ullam eaque laudantium quo maxime ad unde sit qui repellat itaque nihil non ratione, beatae, velit blanditiis atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laborum iure autem qui labore aliquam, perferendis ad saepe dolor consequuntur id cupiditate esse facilis asperiores natus veniam itaque quasi soluta!
             </p>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

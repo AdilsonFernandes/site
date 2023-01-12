@@ -14,10 +14,12 @@ export default function about() {
     return (
 
         <div className="justify-center items-center  min-w-[440px]">
-            <Wpp/>
+            <Wpp />
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
-                <Image src={logo} width={120} />
-                <Burguer/>
+                <Link href="/">
+                    <Image src={logo} width={120} />
+                </Link>
+                <Burguer />
             </header>
 
             <div className="mt-24 text-white flex flex-col justify-center text-center justify-items-center items-center h-[300px] bg-app  bg-no-repeat bg-cover">
@@ -29,8 +31,8 @@ export default function about() {
                 </div>
             </div>
             <div className="-mt-20">
-           <Formulario/>
-           </div>
+                <Formulario />
+            </div>
             <div className="m-20 flex flex-col justify-center items-center font-bold ">
                 <h2 className="text-blue-700 text-2xl mb-5">
                     Redes Sociais
