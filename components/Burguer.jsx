@@ -44,13 +44,13 @@ export default function Header() {
                                 <Link href="/about" className="font-bold block p-6">Sobre nós</Link>
                             </li>
                             <li className="border w-96 text-center  border-white rounded-md  text-xl">
-                                <Link href="/about" className="font-bold block p-6">São Lourenço</Link>
+                                <Link href="/cidade" className="font-bold block p-6">São Lourenço</Link>
                             </li>
                             <li className="border w-96 text-center border-white rounded-md  text-xl">
-                                <Link href="/about" className="font-bold block p-6">Imóveis</Link>
+                                <Link href="/imoveis" className="font-bold block p-6">Imóveis</Link>
                             </li>
                             <li className="border w-96 text-center border-white rounded-md   text-xl">
-                                <Link href="/about " className="font-bold block p-6">Contato</Link>
+                                <Link href="/contato " className="font-bold block p-6">Contato</Link>
                             </li>
                         </ul>
                     </div>
@@ -64,13 +64,13 @@ export default function Header() {
                         <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</Link>
+                        <Link href="/cidade" className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Imóveis</Link>
+                        <Link href="/imoveis" className="hover:text-blue-700 hover:font-bold  hover:transition">Imóveis</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/about" className="hover:text-blue-700 hover:font-bold hover:transition">Contato</Link>
+                        <Link href="/contato" className="hover:text-blue-700 hover:font-bold hover:transition">Contato</Link>
                     </li>
                 </ul>
             </nav>

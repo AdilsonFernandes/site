@@ -13,13 +13,13 @@ export default function Footer() {
                     <p className="font-bold pb-5 pt-5 ">
                         Institucional
                     </p>
-                    <Link href='/teste'>
+                    <Link href='/quemSomos'>
                         <p className="text-sm fa-solid">
 
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />  Quem Somos
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/historia'>
                         <p className="text-sm mt-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" /> História
                         </p>
@@ -93,7 +93,7 @@ export default function Footer() {
 
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center text-center bg-gray-300 text-blue-700 p-2 font-bold">
-                <Link href="https://www.susitech.dev/">Developed by Susi Technologies-</Link> <span className="ml-2 mr-2">{ano} All Rights Reserved</span>
+                <Link href="https://www.susitech.dev/" target="_blank">Developed by Susi Technologies-</Link> <span className="ml-2 mr-2">{ano} All Rights Reserved</span>
             </div>
         </div>
     )

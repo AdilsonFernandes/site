@@ -1,15 +1,15 @@
 import Image from "next/image"
-import fotoCard from "../public/bgCard.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faChevronCircleRight,faHeart,faPlus} from "@fortawesome/free-solid-svg-icons";
 
 
-export default function CardDestaques({ imovel, cidade, quartos, metros, preco, }) {
+export default function CardDestaques({ imovel, cidade, quartos, metros, preco,image }) {
     return (
         <div className="flex flex-col items-center justify-center ">
             <div className="w-96 md:w-72 flex flex-col text-start rounded-md bg-gray-300 pb-5">
-                <Image src={fotoCard} alt='imagem do card' className=" rounded-md mb-4" />
+                <Image src={image} alt='imagem do card' className=" rounded-md mb-4 cover" />
                 <div className="mx-4">
+                    
                     <p className="text-xl text-gray-800 font-bold mb-5 ">
                         {imovel}
                     </p>
