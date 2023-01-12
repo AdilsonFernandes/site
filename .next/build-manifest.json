@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,25 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/areaRural": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/areaRural.js"
     ],
-    "/cidade": [
+    "/locacao": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cidade.js"
+      "static/chunks/pages/locacao.js"
     ],
-    "/contato": [
+    "/venda": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contato.js"
-    ],
-    "/imoveis": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/imoveis.js"
+      "static/chunks/pages/venda.js"
     ]
   },
   "ampFirstPages": []

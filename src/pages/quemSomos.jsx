@@ -3,11 +3,15 @@ import logo from "../../public/logo/logotipo.png"
 import Burguer from "../../components/Burguer"
 import Footer from "../../components/Footer"
 import Link from "next/link"
+import Head from "next/head"
 
 export default function about() {
     return (
 
         <div className="w-full ">
+            <Head>
+                <title>Adilson Fernades | Corretor</title>
+            </Head>
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
                 <Link href="/">
                     <Image src={logo} width={120} />

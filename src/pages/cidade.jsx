@@ -4,11 +4,15 @@ import Burguer from "../../components/Burguer"
 import Footer from "../../components/Footer"
 import Wpp from "../../components/Wpp.jsx"
 import Link from "next/link"
+import Head from "next/head"
 
 export default function Cidade() {
     return (
 
         <div className="justify-center items-center  min-w-[440px]">
+            <Head>
+                <title>Adilson Fernades | Corretor</title>
+            </Head>
             <Wpp />
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
                 <Link href="/">
