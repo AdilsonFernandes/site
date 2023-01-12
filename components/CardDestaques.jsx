@@ -6,7 +6,7 @@ import {faChevronCircleRight,faHeart,faPlus} from "@fortawesome/free-solid-svg-i
 export default function CardDestaques({ imovel, cidade, quartos, metros, preco,image }) {
     return (
         <div className="flex flex-col items-center justify-center ">
-            <div className="w-96 md:w-72 flex flex-col text-start rounded-md bg-gray-300 pb-5">
+            <div className="w-80 md:w-72 flex flex-col text-start rounded-md bg-gray-300 pb-5">
                 <Image src={image} alt='imagem do card' className=" rounded-md mb-4 cover" />
                 <div className="mx-4">
                     
