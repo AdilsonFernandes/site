@@ -3,8 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/cidade": "pages/cidade.js",
-  "/about": "pages/about.js",
-  "/imoveis": "pages/imoveis.js",
   "/contato": "pages/contato.js"
 }

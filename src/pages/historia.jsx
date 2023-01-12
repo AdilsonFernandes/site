@@ -10,7 +10,7 @@ export default function about() {
         <div className="justify-center items-center  min-w-[440px]">
             <Wpp />
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">
-            <Link href="/">
+                <Link href="/">
                     <Image src={logo} width={120} />
                 </Link>
                 <Burguer />

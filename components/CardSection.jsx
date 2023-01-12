@@ -5,7 +5,7 @@ export default function CardSection({ qtdPropriedades }) {
         <div className="flex flex-wrap justify-center mx-auto">
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Casa
@@ -18,7 +18,7 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgAp bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgAp bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Apartamento
@@ -31,12 +31,12 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgLote bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgLote bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Lote
                         </p>
-                        <h3 className="drop-shadow-dark ">
+                        <h3 className="drop-shadow-dark">
                             {qtdPropriedades}
                         </h3>
                     </div>
@@ -44,7 +44,7 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Área rural
@@ -57,7 +57,7 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgComercial bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgComercial bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Comercial
@@ -70,7 +70,7 @@ export default function CardSection({ qtdPropriedades }) {
             </div>
 
             <div className="m-5">
-                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark">
+                <Link href='/???' className=" rounded transition bg-bgCasa bg-cover text-white w-96 h-64 flex flex-col justify-center items-center content-center drop-shadow-dark1">
                     <div className=" bg-black w-full h-full flex flex-col justify-center md:w-96  hover:bg-opacity-0 hover:transition bg-opacity-30 rounded-sm">
                         <p className="text-4xl drop-shadow-dark transition  ">
                             Sobrado

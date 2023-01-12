@@ -20,6 +20,7 @@ boxShadow:{
 },
       dropShadow: {
         dark: '2px 2px 1px black',
+        dark1:'3px 3px 3px black'
       }
 
     },
