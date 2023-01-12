@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/locacao": "pages/locacao.js",
-  "/areaRural": "pages/areaRural.js",
-  "/venda": "pages/venda.js"
+  "/cidade": "pages/cidade.js",
+  "/": "pages/index.js"
 }
