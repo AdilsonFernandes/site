@@ -30,10 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contato": [
+    "/casa": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contato.js"
+      "static/chunks/pages/casa.js"
+    ],
+    "/locacao": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/locacao.js"
+    ],
+    "/venda": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/venda.js"
     ]
   },
   "ampFirstPages": []

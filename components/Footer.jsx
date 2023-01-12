@@ -28,27 +28,27 @@ export default function Footer() {
 
                 <div className="flex flex-col justify-start items-start">
                     <p className="font-bold pb-5 pt-5">Imóveis</p>
-                    <Link href='/teste'>
+                    <Link href='/casa'>
                         <p className="text-sm ">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" /> Casa
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/apartamento'>
                         <p className="text-sm mt-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />  Apartamento
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/lote'>
                         <p className="text-sm mt-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />  Lotes
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/comercial'>
                         <p className="text-sm mt-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />  Comercial
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/areaRural'>
                         <p className="text-sm mt-2 ">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" /> Área Rural
                         </p>
@@ -56,12 +56,12 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col justify-start items-start">
                     <p className="font-bold pb-5 pt-5">Serviços</p>
-                    <Link href='/teste'>
+                    <Link href='/venda'>
                         <p className="text-sm ">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2" />Venda
                         </p>
                     </Link>
-                    <Link href='/teste'>
+                    <Link href='/locacao'>
                         <p className="text-sm mt-2">
                             <FontAwesomeIcon icon={faChevronCircleRight} className="px-2"/>Locação
                         </p>
