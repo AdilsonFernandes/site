@@ -3,6 +3,7 @@ import logo from "../../public/logo/logotipo.png"
 import Burguer from "../../components/Burguer"
 import Footer from "../../components/Footer"
 import Wpp from "../../components/Wpp.jsx"
+import Link from "next/link"
 
 export default function Cidade() {
     return (
