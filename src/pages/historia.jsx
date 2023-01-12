@@ -10,7 +10,7 @@ export default function about() {
 
         <div className="justify-center items-center  min-w-[440px]">
             <Head>
-                <title>Adilson Fernades | Corretor</title>
+                <title>Adilson Fernandes | Corretor</title>
             </Head>
             <Wpp />
             <header className="fixed m-auto -mt-24 flex justify-between items-center shadow-dark bg-white w-full z-20 h-24">

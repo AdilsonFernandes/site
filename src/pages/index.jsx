@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="justify-center items-center  min-w-[440px]">
  <Head>
-    <title>Adilson Fernades | Corretor</title>
+    <title>Adilson Fernandes | Corretor</title>
   </Head>
       <Inicio />
       <Section localidade='São Lourenço' />

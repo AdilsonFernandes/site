@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react"; // import state
-
+import { useRouter } from "next/router";
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
@@ -41,7 +41,7 @@ export default function Header() {
                                 <Link href="/" className="font-bold block p-6">Início</Link>
                             </li>
                             <li className="border w-96 text-center border-white rounded-md  text-xl">
-                                <Link href="/about" className="font-bold block p-6">Sobre nós</Link>
+                                <Link href="/sobre" className="font-bold block p-6">Sobre nós</Link>
                             </li>
                             <li className="border w-96 text-center  border-white rounded-md  text-xl">
                                 <Link href="/cidade" className="font-bold block p-6">São Lourenço</Link>
@@ -57,11 +57,11 @@ export default function Header() {
                 </section>
 
                 <ul className="DESKTOP-MENU hidden  lg:flex">
-                    <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/" className="hover:text-blue-700 hover:font-bold hover:transition ">Início</Link>
+                    <li className="w-28 flex justify-center items-center text-center" >
+                        <Link href="/" className="hover:text-blue-700 hover:font-bold hover:transition">Início</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/about" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>
+                        <Link href="/sobre" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
                         <Link href="/cidade" className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</Link>
