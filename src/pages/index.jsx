@@ -8,17 +8,20 @@ import Wpp from "../../components/Wpp.jsx"
 
 
 export default function Home() {
+  <Head>
+    <title>Adilson Fernades | Corretor</title>
+  </Head>
   return (
     <div className="justify-center items-center  min-w-[440px]">
-      <Head>
-        <title>Adilson Fernades | Corretor</title>
-      </Head>
-      <Inicio/>
-      <Section localidade='São Lourenço'/>
-      <Destaques/>
-      <Wpp/>
-      <Formulario/>
-      <Footer/>
+ <Head>
+    <title>Adilson Fernades | Corretor</title>
+  </Head>
+      <Inicio />
+      <Section localidade='São Lourenço' />
+      <Destaques />
+      <Wpp />
+      <Formulario />
+      <Footer />
     </div>
   )
 }
