@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/historia": "pages/historia.js",
-  "/": "pages/index.js"
+  "/cidade": "pages/cidade.js",
+  "/": "pages/index.js",
+  "/about": "pages/about.js",
+  "/imoveis": "pages/imoveis.js",
+  "/contato": "pages/contato.js"
 }
