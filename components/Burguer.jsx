@@ -3,6 +3,9 @@ import { useState } from "react"; // import state
 import { useRouter } from "next/router";
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
+    
+    const router = useRouter();
+    const currentRoute = router.pathname;
 
     return (
         <div className="flex items-center justify-between mx-8 py-8">
@@ -58,19 +61,31 @@ export default function Header() {
 
                 <ul className="DESKTOP-MENU hidden  lg:flex">
                     <li className="w-28 flex justify-center items-center text-center" >
-                        <Link href="/" className="hover:text-blue-700 hover:font-bold hover:transition">Início</Link>
+                        <Link href="/" className={currentRoute === '/' ? "active" : ""}>
+                        <p className="hover:text-blue-700 hover:font-bold hover:transition">Início</p></Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/sobre" className="hover:text-blue-700 hover:font-bold  hover:transition">Sobre nós</Link>
+                        <Link href="/sobre " className={currentRoute === '/sobre' ? "active" : ""}
+                        >
+                            <p className="hover:text-blue-700 hover:font-bold  hover:transition">
+                            Sobre nós
+                            </p>
+                        </Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/cidade" className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</Link>
+                        <Link href="/cidade"className={currentRoute === '/cidade' ? "active" : ""} >
+                        <p className="hover:text-blue-700 hover:font-bold  hover:transition">São Lourenço</p>
+                        </Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/imoveis" className="hover:text-blue-700 hover:font-bold  hover:transition">Imóveis</Link>
+                        <Link href="/imoveis" className={currentRoute === '/imoveis' ? "active" : ""}>
+                        <p  className="hover:text-blue-700 hover:font-bold  hover:transition">Imóveis</p>
+                        </Link>
                     </li>
                     <li className="w-28 flex justify-center items-center text-center">
-                        <Link href="/contato" className="hover:text-blue-700 hover:font-bold hover:transition">Contato</Link>
+                        <Link href="/contato" className={currentRoute === '/contato' ? "active" : ""}>
+                        <p className="hover:text-blue-700 hover:font-bold hover:transition">Contato</p>
+                        </Link>
                     </li>
                 </ul>
             </nav>
@@ -90,6 +105,13 @@ export default function Header() {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+      }
+      .nonActive {
+        color: white;
+      }
+      .active {
+       color: rgb(29 78 216 );
+       font-weight: bold;
       }
     `}</style>
         </div>
