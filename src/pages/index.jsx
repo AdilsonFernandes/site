@@ -9,7 +9,7 @@ import Wpp from "../../components/Wpp.jsx"
 
 export default function Home() {
   <Head>
-    <title>Adilson Fernades | Corretor</title>
+    <title>Adilson Fernandes | Corretor</title>
   </Head>
   return (
     <div className="justify-center items-center  min-w-[440px]">
